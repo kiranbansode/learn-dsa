@@ -1,9 +1,10 @@
 const strings = ["a", "b", "c", "d"];
 
-// console.log(strings[2]); // c
+console.log(strings[2]); // O(1)
 
 // push
 strings.push("e"); // O(1)
+strings.push("e", "f", "g"); // O(n)
 console.log(strings);
 
 // pop
